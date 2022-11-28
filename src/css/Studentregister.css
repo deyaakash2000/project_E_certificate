@@ -1,0 +1,150 @@
+/* body {
+  font-family: Arial, Helvetica, sans-serif;} */
+
+
+* {
+  box-sizing: border-box;
+}
+.back1{
+  background-image: linear-gradient(rgba(0,0,0,0.200), rgba(0,0,0.300)),url("../img/lapoo.jpg");
+	background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.container1 {
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 7em auto;
+  border: 2px solid aqua;
+  border-radius: 1.5em;
+  height: 700px;
+  
+}
+
+.content1{
+     max-width:500px;
+     /* max-height: fit-content; */
+     margin:auto;
+     padding: 18px;
+     
+}
+input[type=text],  select  {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background-color: #dcdcdc;
+  resize: vertical;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #dcdcdc;
+  /* font: normal normal normal 17px/1 FontAwesome; */
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #dcdcdc;
+  outline: none;
+}
+input[type=number] ,select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background-color: #dcdcdc;
+  resize: vertical;
+
+}
+a{
+  text-decoration:none;
+  color: #fff;
+}
+hr {
+  border: 1px solid hwb(0 0% 100%);
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color:#d43f8d;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 30px 0;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.selectdiv {
+  position: relative;
+  float: left;
+  min-width: 200px;
+  margin: 50px 33%;
+}
+
+.selectdiv:after {
+    content: "\f078";
+    /* font: normal normal normal 17px/1 FontAwesome; */
+    color: #0ebeff;
+    right: 11px;
+    top: 6px;
+    height: 23px;
+    padding: 8px 0px 0px 8px;
+    border-left: 1px solid #0ebeff;
+    position: absolute;
+    pointer-events: none;
+    display: block;
+}
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  display: inline;
+  width: 300px;
+  max-width: 300px;
+  height: 45px;
+  float: left;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #f1f1f1;
+  border: 1px solid #0ebeff;
+  position: relative;
+  
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+::placeholder {
+  color: #333;
+  opacity: 2; 
+}
+.signin {
+  background-color: #fff;
+  text-align: center;
+}
+b{
+  float: left;
+}
+i{
+  color:#0ebeff
+}

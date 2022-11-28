@@ -1,0 +1,32 @@
+
+/* .demo{
+     background-image: linear-gradient(rgba(0,0,0,0.200), rgba(0,0,0.300)),url("../img/login3.jpg");
+     background-size: cover;
+     height: 1000px;
+     position:relative;
+} */
+.searchbar{
+
+        max-width:400px;
+        margin-top: 2%;
+        margin-left: 38%;
+
+}
+.btnbtn{
+       
+        position: absolute;
+        display: inline-block;
+        padding: 12px;
+        border: 1px solid transparent;
+        background-color: transparent;
+        font-size: 30px;
+}
+input[type=search] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }

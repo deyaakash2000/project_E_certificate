@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.about-us{
+  background-image: url("./../img/t.jpg");
+  background-position: center;
+  background-size: cover;
+  height:935px;
+}
+.mb-4{
+    text-align: center;
+    color: #0c0d0d; 
+
+  
+}
+
+  .pic img{
+   margin-bottom:150px ;
+    margin-left: 30px;
+    height: 400px;
+    width:auto;
+  }
+  .pic p{
+   
+     float: right;
+    margin-top:100px;
+    margin-right:20px;
+    color: rgb(195, 202, 207);
+    font-family: cursive;
+  }
+  .abo{
+      margin-left: 13%;
+      height:80%;
+      width:80%;
+  }

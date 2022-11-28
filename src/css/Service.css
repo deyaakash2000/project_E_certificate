@@ -1,0 +1,58 @@
+*{  
+        margin: 0px;
+        padding: 0px;
+}
+.box{
+    background-image: url("./../img/t.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 935px;
+  }
+.mb-3 {
+    text-align: center;
+    color: hwb(0 1% 99%);
+    font-size: 25px;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    
+    
+  }
+.box {
+    color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom:0%;
+}
+.row{
+    padding-left: 205px;
+    padding-top: 80px;
+}
+
+.card{
+    height: 200px;
+    width: 380px;
+   
+    
+}
+.serve{
+    
+        margin-bottom: 200px;
+        height: 80%;
+        width:100%;
+      
+}
+.card-img-top{
+    height: 200px;
+    width:auto;
+}
+.card-body{
+    background-image:linear-gradient(to top, #000000, #110f0e, #1c1917, #24221e, #2a2c26);
+}
+.card-title{
+        color: aliceblue;
+}
+
+.card-text{
+    color: aliceblue;
+}
+

@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.L-main{
+	background-image: url("../img/laptop.jpg");
+	background-size: cover;
+  height:935px;
+  background-position: center;
+  
+  
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.content{
+     max-width:400px;
+     margin-top: 12%;
+     margin-left: 55%;
+     
+  
+    
+}
+.img1{
+  height:25%;
+  width: 30%;
+}
+
+.bton {
+  background-color: #9cf;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  float: right;
+}
+a{
+  text-decoration:none;
+  font-size:130%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+img.src {
+  width: 20%;
+  border-radius: 30%;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+span.psw {
+  float: left;
+  padding-top: 8px;
+  font-size: 18px;
+}
+span.ps{
+   float: right;
+   font-size: 18px;
+}
+
+.container2 {
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 420px;
+  margin: 7em auto;
+  border: 1px solid black;
+  border-radius: 1.5em;
+
+}
